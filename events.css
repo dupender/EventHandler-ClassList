@@ -1,0 +1,31 @@
+/*The first section's text should be bold.*/
+.article-section:first-child{
+  font-weight:bold;
+}
+
+/*The last section's text should be bold and italicized.*/
+.article-section:last-child{
+  font-weight:bold;
+  font-style: italic;
+}
+
+/*Make the buttons stop appearing next to each other as inline elements. Change them into block elements.*/
+button{
+  display: block;
+}
+
+.blue {
+  color:blue;
+}
+
+.xx-large {
+  font-size: 200%;
+}
+
+.solid{
+  border:solid;
+}
+
+.rounded{
+  border-radius: 25px;
+}
